@@ -11,7 +11,9 @@ $python = Join-Path $IrisRoot '.venv-modern\Scripts\python.exe'
 $checkpoints = Join-Path $IrisRoot 'checkpoints\atari100k-v1'
 $outputRoot = Join-Path $IrisRoot 'protocol-runs\iris-atari100k-v1-r1'
 New-Item -ItemType Directory -Force -Path $outputRoot | Out-Null
+Push-Location $IrisRoot
 
+try {
 foreach ($checkpoint in Get-ChildItem -File -LiteralPath $checkpoints | Sort-Object Name) {
   $game = $checkpoint.BaseName
   if ($Games -and $game -notin $Games) { continue }
@@ -24,4 +26,7 @@ foreach ($checkpoint in Get-ChildItem -File -LiteralPath $checkpoints | Sort-Obj
     & $python src\main.py "hydra.run.dir=$runDir" "initialization.path_to_checkpoint=$($checkpoint.FullName)" initialization.load_tokenizer=True initialization.load_world_model=False initialization.load_actor_critic=True common.epochs=1 common.device=cuda:0 common.do_checkpoint=False "common.seed=$seed" "env.train.id=$environmentId" "collection.test.num_envs=$NumEnvs" "collection.test.config.num_episodes=$Episodes" collection.test.num_episodes_to_save=0 training.should=False evaluation.should=True evaluation.every=1 evaluation.tokenizer.start_after_epochs=1 evaluation.tokenizer.save_reconstructions=False evaluation.world_model.start_after_epochs=1 evaluation.actor_critic.start_after_epochs=1 wandb.mode=disabled 2>&1 | Tee-Object -FilePath $logPath
     if ($LASTEXITCODE -ne 0) { throw "run failed: $runId" }
   }
+}
+} finally {
+  Pop-Location
 }

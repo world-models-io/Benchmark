@@ -1,0 +1,110 @@
+﻿{
+    "source":  "AutoROM 0.4.2, license accepted",
+    "taskSet":  "Atari 100K official 26-game task set",
+    "roms":  [
+                 {
+                     "file":  "alien.bin",
+                     "sha256":  "9cd556c7d7f55aeb78fc5add45d74ce889c6e22cba6bb535ef1e8bd6b6c764c1"
+                 },
+                 {
+                     "file":  "amidar.bin",
+                     "sha256":  "da5b760d3adaeba2cb8fc2367ae96e2b8add4da44cd47199b57ff4d54e682d9f"
+                 },
+                 {
+                     "file":  "assault.bin",
+                     "sha256":  "d32ca4dd9e849af7b776bc73bf464468839ddab66d7e6efacf877fe6eb841dc2"
+                 },
+                 {
+                     "file":  "asterix.bin",
+                     "sha256":  "b6161db0530d8445b5ef0e8b700500531e980aa10184e5196355f27a7ba60819"
+                 },
+                 {
+                     "file":  "bank_heist.bin",
+                     "sha256":  "c32daffdb926afaa0b11948c85b0b059e26d29af5f9ce213c439727ccf3f3a8f"
+                 },
+                 {
+                     "file":  "battle_zone.bin",
+                     "sha256":  "efd6f639e724a771a8331d7f408609d0dc0854533b3163b602720754267943ee"
+                 },
+                 {
+                     "file":  "boxing.bin",
+                     "sha256":  "462ab7dae012a175763c4ce88ac7a20d23e8fb68b7125e97c474e0696ed40d95"
+                 },
+                 {
+                     "file":  "breakout.bin",
+                     "sha256":  "376323f051c3c373c887fd83abead39d87d844ff283d435f4addbfc1710c6fd5"
+                 },
+                 {
+                     "file":  "chopper_command.bin",
+                     "sha256":  "055637282252b5378a2b7df573726e85afa91264ffb7243d23fab9518b3c207d"
+                 },
+                 {
+                     "file":  "crazy_climber.bin",
+                     "sha256":  "486ad4cc89569d797dc5feff6e95d1d5f5f8e78331a4925ef3126bd2aa1bcf09"
+                 },
+                 {
+                     "file":  "demon_attack.bin",
+                     "sha256":  "8d72feeb267d23cb5d58bb4511566414884c572d2b4dcba8f6893ad7426442d4"
+                 },
+                 {
+                     "file":  "freeway.bin",
+                     "sha256":  "3ef620234b98f22bfd7c06d2467bac9d208e763c9f4309452384d59a741ba893"
+                 },
+                 {
+                     "file":  "frostbite.bin",
+                     "sha256":  "cbfdad89480def69d922adf16a1d89d55a6cb515929edf74e5bea884c9fb7834"
+                 },
+                 {
+                     "file":  "gopher.bin",
+                     "sha256":  "b4aff03aeb0fb1c8f4914b5a329f51430f00a2d9350aba24573ad78032dd4697"
+                 },
+                 {
+                     "file":  "hero.bin",
+                     "sha256":  "75bd02ec75458ea4bc2cba9b85bb281c3f9da106123e4600b054f0934e36b81f"
+                 },
+                 {
+                     "file":  "jamesbond.bin",
+                     "sha256":  "995253f0d3a2fac712c6ee3518f19fc5e6a8c800e2fd8dbfe49d45ad367a231f"
+                 },
+                 {
+                     "file":  "kangaroo.bin",
+                     "sha256":  "a2826eaea3a854b63b4ca1d7423f1b3347311e0552c6b1f35065e50b2cbca523"
+                 },
+                 {
+                     "file":  "krull.bin",
+                     "sha256":  "b40f10d14217093082b00b302bff8c6faa0d64c5221e9be36ea0ceb12477517a"
+                 },
+                 {
+                     "file":  "kung_fu_master.bin",
+                     "sha256":  "3f6501a649ad83e970a25827bd492c56128c36535ae2c96f94bab39b27f939ac"
+                 },
+                 {
+                     "file":  "ms_pacman.bin",
+                     "sha256":  "dde0b43c5dee7ce1a35ac8e2f625b32a16118512d9be4064115053b972280b14"
+                 },
+                 {
+                     "file":  "pong.bin",
+                     "sha256":  "41623e3c26148f96cbe77d56512845d224a63c8fe5bf90e38527155e39ec96d3"
+                 },
+                 {
+                     "file":  "private_eye.bin",
+                     "sha256":  "c8f9ce1b2e804b6778dbc20da0c935b2af7d7e998ad372d44df66f16eb4b98ce"
+                 },
+                 {
+                     "file":  "qbert.bin",
+                     "sha256":  "3257221832a7607696b06b9985103c12a4c24c61b0c655e8f52aed8e38194b76"
+                 },
+                 {
+                     "file":  "road_runner.bin",
+                     "sha256":  "4b6c2e68d6933b8bc79983f6a3bb11bda695b5dfbeeb8fd63d84406ba3f27b5a"
+                 },
+                 {
+                     "file":  "seaquest.bin",
+                     "sha256":  "fbc29f4678f69ac27fe46da298c8c22f98cba2a3e5491e6b308fd9bf68d2ee43"
+                 },
+                 {
+                     "file":  "up_n_down.bin",
+                     "sha256":  "74890a43e59134ea88e0a3aa6cae91615299cc41d74a464e0e31070d5d36062c"
+                 }
+             ]
+}

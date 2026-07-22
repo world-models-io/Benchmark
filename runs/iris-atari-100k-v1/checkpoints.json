@@ -1,0 +1,136 @@
+﻿{
+    "implementationCommit":  "24326aaaa283c527f42b89b44cfdecf2665a7a16",
+    "checkpointRevision":  "c0539e99adf924d44be0f19b12de00639daa5550",
+    "checkpoints":  [
+                        {
+                            "file":  "Alien.pt",
+                            "sha256":  "5e75195c53d33c64649f303836da97b7ad2e9f13d5f73b98c40fc21fa1352152",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Alien.pt"
+                        },
+                        {
+                            "file":  "Amidar.pt",
+                            "sha256":  "7bac665810cca325deae7885458c675e4f70f7f68537d9740d0da35754aae819",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Amidar.pt"
+                        },
+                        {
+                            "file":  "Assault.pt",
+                            "sha256":  "b2c0d61c253e57644206a6c1d2f8c483863b9fdb492b75ead8f6cf8af619877f",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Assault.pt"
+                        },
+                        {
+                            "file":  "Asterix.pt",
+                            "sha256":  "da3175853640f62be5e0fff4fd2823f0139fcd62a35d091e1fbd993f972564e2",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Asterix.pt"
+                        },
+                        {
+                            "file":  "BankHeist.pt",
+                            "sha256":  "8a44a9151de1c2dbc42ddf9fe9600a7c47bc08e259adae28de609f3a77be5051",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/BankHeist.pt"
+                        },
+                        {
+                            "file":  "BattleZone.pt",
+                            "sha256":  "426da88aca45b59e3863c356d62b1cee6628eecfa6cdb51ec5887b662b4aa764",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/BattleZone.pt"
+                        },
+                        {
+                            "file":  "Boxing.pt",
+                            "sha256":  "b0f48bb855477e6af1c85dce9e68f79661406308a743bf881f56842754c7eaf4",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Boxing.pt"
+                        },
+                        {
+                            "file":  "Breakout.pt",
+                            "sha256":  "169e3669b7d1901990b4ebce35ff8f3355610fae393e6a587fd62c40faf790f4",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Breakout.pt"
+                        },
+                        {
+                            "file":  "ChopperCommand.pt",
+                            "sha256":  "0bec1bb70fbd11d043f216f5beb66c6d2f6e9f229eda1deaa48de5faffdc339f",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/ChopperCommand.pt"
+                        },
+                        {
+                            "file":  "CrazyClimber.pt",
+                            "sha256":  "5918803c67c87fdb6b838c91e132a51c43b3c7d521c93f92287308772e691514",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/CrazyClimber.pt"
+                        },
+                        {
+                            "file":  "DemonAttack.pt",
+                            "sha256":  "3537324054586499756c6446beddf031c9cc6a5ccf127b21827e70157af6f87b",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/DemonAttack.pt"
+                        },
+                        {
+                            "file":  "Freeway.pt",
+                            "sha256":  "0f64e2f39052d24026dd13732b0699ea1724f602658ac5b0a929570580fb6d36",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Freeway.pt"
+                        },
+                        {
+                            "file":  "Frostbite.pt",
+                            "sha256":  "af7f5cc2d1db900506285aee881511f477b56bab761e62503c5f5fde97ad0872",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Frostbite.pt"
+                        },
+                        {
+                            "file":  "Gopher.pt",
+                            "sha256":  "ee9c3dfbf5eaf68d23186073edd530ea83bbb828ad4f122fed4655913fe5ad1d",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Gopher.pt"
+                        },
+                        {
+                            "file":  "Hero.pt",
+                            "sha256":  "36340869915c6896a5f5d8c8611832065aa9f0f0ef47c92ffc323b159c20ff40",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Hero.pt"
+                        },
+                        {
+                            "file":  "Jamesbond.pt",
+                            "sha256":  "c579ddad64338ee98d23a6a5ef5fd81777919cc897cdb2a9fbf8ad75e5473eb7",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Jamesbond.pt"
+                        },
+                        {
+                            "file":  "Kangaroo.pt",
+                            "sha256":  "c1ca5c60a1c6391ac60c59f8ae60a70a1628ef2b957edef50df35f4580085e5a",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Kangaroo.pt"
+                        },
+                        {
+                            "file":  "Krull.pt",
+                            "sha256":  "5aa5b18d34f8dad4cd24def83c1a068d5128394fbfffd1be6b5074f2049231aa",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Krull.pt"
+                        },
+                        {
+                            "file":  "KungFuMaster.pt",
+                            "sha256":  "f8ff162f5699eb53740b5abff542877418e9bff7b3114cdf9419748ffb784830",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/KungFuMaster.pt"
+                        },
+                        {
+                            "file":  "MsPacman.pt",
+                            "sha256":  "aae809a57fc3b5b72f4cddf4b64836083d374244f765d7371425a5fdbcaa4e55",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/MsPacman.pt"
+                        },
+                        {
+                            "file":  "Pong.pt",
+                            "sha256":  "b180b9145b086fb00a7bcb9918da9ee373bde7dd2e0d04d6a7054aa1d10284be",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Pong.pt"
+                        },
+                        {
+                            "file":  "PrivateEye.pt",
+                            "sha256":  "613113ad8e82b52897d266ff7685f0d71591e6b47c9ed6d101d281f671e1d34a",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/PrivateEye.pt"
+                        },
+                        {
+                            "file":  "Qbert.pt",
+                            "sha256":  "be23c4ba1d7385697e82a06f8309d607189066db1bac1de048f7a0833d7bfc9a",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Qbert.pt"
+                        },
+                        {
+                            "file":  "RoadRunner.pt",
+                            "sha256":  "6557d60333bb4a3d4bb5877498b911436056ae8f32a9d68e98d8b484b53c2ca4",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/RoadRunner.pt"
+                        },
+                        {
+                            "file":  "Seaquest.pt",
+                            "sha256":  "3be1c167b9b2ddb54d02cbde9bcdd9cdd4d448ff886f6f9f1262d5d1493ad5b2",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/Seaquest.pt"
+                        },
+                        {
+                            "file":  "UpNDown.pt",
+                            "sha256":  "8df15d4ba520e77df9d3e8a090da57d8e397da5c44da7c2a88b898d8b4c3fc86",
+                            "sourceUrl":  "https://huggingface.co/eloialonso/iris/resolve/c0539e99adf924d44be0f19b12de00639daa5550/pretrained_models/UpNDown.pt"
+                        }
+                    ]
+}

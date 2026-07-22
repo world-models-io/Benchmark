@@ -1,6 +1,6 @@
 # IRIS Atari 100K v1 — execution runbook
 
-**Status:** preparation complete; no score is published by this document.
+**Status:** pre-execution evidence is complete; no evaluation score is published by this document.
 
 This runbook is the evidence contract for the first IRIS reproduction. It uses the protocol registered by the World Models website as `model-based-rl/atari-100k/v1`.
 
@@ -32,15 +32,15 @@ This is a disclosed runtime delta, not an author-runtime claim. It is eligible f
 
 ## Before execution
 
-1. Record the exact CUDA runtime, GPU driver, dependency lock, ROM hashes and checkpoint inventory in this run directory.
-2. Verify every checkpoint SHA-256 against the official Hugging Face LFS object ID.
+1. `environment.lock`, `checkpoints.json`, and `roms.json` record the local runtime, all 26 verified checkpoint hashes, and all 26 accepted ROM hashes.
+2. The checkpoint inventory is verified against the official Hugging Face LFS object IDs.
 3. Use an officially licensed Atari ROM installation. Do not upload ROMs.
 4. Run each game/checkpoint under every required seed and retain stdout, stderr, structured episode returns, and the exact command.
-5. Store raw logs in a versioned draft release; do not publish the release until all 130 runs are present.
+5. Store raw logs in the versioned draft release; do not publish the release until all 130 runs are present.
 
 ## Publication gate
 
-Before publishing the `IRIS Atari 100K reproduction r1` release:
+Before publishing the `IRIS Atari 100K reproduction r1` release, the remaining work is:
 
 1. Add the completed manifest, environment lock, checkpoint inventory, ROM-hash inventory and raw logs.
 2. Verify that all 130 game/seed runs completed and their asset checksums match the manifest.

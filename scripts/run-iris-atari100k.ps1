@@ -21,12 +21,13 @@ foreach ($checkpoint in Get-ChildItem -File -LiteralPath $checkpoints | Sort-Obj
   foreach ($seed in $Seeds) {
     $runId = "$game-seed-$seed"
     $runDir = Join-Path $outputRoot $runId
+    $relativeRunDir = Join-Path 'protocol-runs\iris-atari100k-v1-r1' $runId
     $logPath = Join-Path $outputRoot "$runId.log"
     $completionMarker = Join-Path $runDir 'completed.marker'
     if (Test-Path -LiteralPath $completionMarker) { continue }
     if (Test-Path -LiteralPath $runDir) { Remove-Item -Recurse -Force -LiteralPath $runDir }
     New-Item -ItemType Directory -Force -Path $runDir | Out-Null
-    & $python src\main.py "hydra.run.dir=$runDir" "initialization.path_to_checkpoint=$($checkpoint.FullName)" initialization.load_tokenizer=True initialization.load_world_model=False initialization.load_actor_critic=True common.epochs=1 common.device=cuda:0 common.do_checkpoint=False "common.seed=$seed" "env.train.id=$environmentId" "collection.test.num_envs=$NumEnvs" "collection.test.config.num_episodes=$Episodes" collection.test.num_episodes_to_save=0 training.should=False evaluation.should=True evaluation.every=1 evaluation.tokenizer.start_after_epochs=1 evaluation.tokenizer.save_reconstructions=False evaluation.world_model.start_after_epochs=1 evaluation.actor_critic.start_after_epochs=1 wandb.mode=disabled 2>&1 | Tee-Object -FilePath $logPath
+    & $python src\main.py "hydra.run.dir=$relativeRunDir" "initialization.path_to_checkpoint=$($checkpoint.FullName)" initialization.load_tokenizer=True initialization.load_world_model=False initialization.load_actor_critic=True common.epochs=1 common.device=cuda:0 common.do_checkpoint=False "common.seed=$seed" "env.train.id=$environmentId" "collection.test.num_envs=$NumEnvs" "collection.test.config.num_episodes=$Episodes" collection.test.num_episodes_to_save=0 training.should=False evaluation.should=True evaluation.every=1 evaluation.tokenizer.start_after_epochs=1 evaluation.tokenizer.save_reconstructions=False evaluation.world_model.start_after_epochs=1 evaluation.actor_critic.start_after_epochs=1 wandb.mode=disabled 2>&1 | Tee-Object -FilePath $logPath
     if ($LASTEXITCODE -ne 0) { throw "run failed: $runId" }
     Set-Content -LiteralPath $completionMarker -Value "completed" -NoNewline
   }

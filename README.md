@@ -2,6 +2,10 @@
 
 This public repository stores immutable, inspectable evidence for benchmark reproductions published by World Models. It is deliberately separate from the website, model index, and source implementations.
 
+## Licence
+
+The documentation, manifests, hashes, and raw evaluation logs in this repository are released under [Creative Commons Attribution 4.0 International](LICENSE) (CC BY 4.0). Attribution must preserve the run identifier, protocol, source implementation, and evidence-release URL. Third-party model checkpoints and Atari ROMs are not relicensed by this repository and are never redistributed here.
+
 ## What belongs here
 
 - completed run manifests;
